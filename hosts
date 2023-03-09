@@ -1,2 +1,1 @@
-[ubuntu18]
-172.17.0.2 ansible_connection=ssh
+172.16.144.159 ansible_connection=ssh
