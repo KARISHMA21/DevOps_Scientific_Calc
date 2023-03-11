@@ -1,18 +1,26 @@
----
-- name: Pull docker image of Calculator
-  hosts: all
-  tasks:
+# ---
+# - name: Pull docker image of Calculator
+#   hosts: all
+#   tasks:
 
-    - name: Start docker service
-      service:
-        name: docker
-        state: started
+#     - name: Start docker service
+#       service:
+#         name: docker
+#         state: started
         
-    - name: pull docker image
-      shell: docker pull karishma056/scientific_calc
+#     - name: pull docker image
+#       shell: docker pull karishma056/scientific_calc
       
-    - name: running container
-      shell: docker pull karishma056/scientific_calc
+#     - name: running container
+#       shell: docker pull karishma056/scientific_calc
 
-
-# https://github.com/VaishnaviDhulipalla2902/CalculatorDevOps/blob/main/deployment/deploy.yml
+---
+- name: Pull Docker image of Calculator
+  hosts: all
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+  tasks:
+    - name: Pull image
+      docker_image:
+        name: karishma056/scientific_calc:latest
+        source: pull
