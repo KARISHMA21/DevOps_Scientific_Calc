@@ -13,3 +13,6 @@
       
     - name: running container
       shell: docker pull karishma056/scientific_calc
+
+
+# https://github.com/VaishnaviDhulipalla2902/CalculatorDevOps/blob/main/deployment/deploy.yml
