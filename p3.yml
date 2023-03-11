@@ -9,7 +9,7 @@
         state: started
         
     - name: pull docker image
-      shell: docker pull himankjn/check
+      shell: docker pull karishma056/scientific_calc
       
     - name: running container
       shell: docker pull karishma056/scientific_calc
