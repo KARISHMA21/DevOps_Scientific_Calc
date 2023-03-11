@@ -1,10 +1,15 @@
 ---
 - name: Pull docker image of Calculator
-hosts: all
-tasks:
-- name: Start docker service
-service:
-name: docker
-state: started
-- name: pull docker image
-shell: docker pull karishma056/scientific_calc
+  hosts: all
+  tasks:
+
+    - name: Start docker service
+      service:
+        name: docker
+        state: started
+        
+    - name: pull docker image
+      shell: docker pull himankjn/check
+      
+    - name: running container
+      shell: docker pull karishma056/scientific_calc
