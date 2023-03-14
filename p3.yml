@@ -13,7 +13,7 @@
       shell: docker pull karishma056/scientific_calc
       
     - name: running container
-      shell: docker run -it -d karishma056/scientific_calc
+      shell: docker run -it -d karishma056/scientific_calc /bin/bash
 
 # ---
 # - name: Pull Docker image of Calculator
