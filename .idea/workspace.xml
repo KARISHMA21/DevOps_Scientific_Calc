@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a7d20c9-e6af-4e72-9e05-bdb413ec81ee" name="Changes" comment="initial upload">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kc/devops/calcMain.java" afterDir="false" />
+    <list default="true" id="6a7d20c9-e6af-4e72-9e05-bdb413ec81ee" name="Changes" comment="jar issue fixed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DevOps/ScientificCalc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kc/devops/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kc/devops/calcMain.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/karishma/Documents/SPE/testCalc&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/karishma/Documents/SPE/MyScientific_Cal/src/main/resources&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -40,9 +40,27 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configuration.execution&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="calcMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kc.devops.calcMain" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ScientificCalc">
+    <configuration name="ScientificCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DevOps.ScientificCalc" />
+      <module name="MyScientificCalc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DevOps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kc.devops.calc" />
       <module name="MyScientificCalc" />
       <extension name="coverage">
         <pattern>
@@ -56,7 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.calcMain" />
+        <item itemvalue="Application.ScientificCalc" />
       </list>
     </recent_temporary>
   </component>
@@ -75,7 +93,9 @@
       <workItem from="1678309865327" duration="175000" />
       <workItem from="1678310171607" duration="334000" />
       <workItem from="1678366860685" duration="1869000" />
-      <workItem from="1678370499180" duration="264000" />
+      <workItem from="1678370499180" duration="1532000" />
+      <workItem from="1678652111824" duration="2163000" />
+      <workItem from="1678822380507" duration="622000" />
     </task>
     <task id="LOCAL-00001" summary="initial upload">
       <created>1678299277531</created>
@@ -84,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678299277531</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="jar issue fixed">
+      <created>1678370827448</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678370827448</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +130,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial upload" />
+    <MESSAGE value="jar issue fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="jar issue fixed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
