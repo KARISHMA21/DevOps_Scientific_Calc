@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a7d20c9-e6af-4e72-9e05-bdb413ec81ee" name="Changes" comment="jar issue fixed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DevOps/ScientificCalc.java" afterDir="false" />
+    <list default="true" id="6a7d20c9-e6af-4e72-9e05-bdb413ec81ee" name="Changes" comment="log added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kc/devops/calcMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DevOps/ScientificCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DevOps/ScientificCalc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +50,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ScientificCalc">
+  <component name="RunManager" selected="JUnit.TestScientificCalc">
     <configuration name="ScientificCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DevOps.ScientificCalc" />
       <module name="MyScientificCalc" />
@@ -72,8 +77,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestScientificCalc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyScientificCalc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestScientificCalc" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestScientificCalc" />
         <item itemvalue="Application.ScientificCalc" />
       </list>
     </recent_temporary>
@@ -96,6 +111,9 @@
       <workItem from="1678370499180" duration="1532000" />
       <workItem from="1678652111824" duration="2163000" />
       <workItem from="1678822380507" duration="622000" />
+      <workItem from="1678823765396" duration="1965000" />
+      <workItem from="1678877150070" duration="1463000" />
+      <workItem from="1679119632076" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="initial upload">
       <created>1678299277531</created>
@@ -111,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678370827448</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="log added">
+      <created>1678823943864</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678823943864</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +156,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial upload" />
     <MESSAGE value="jar issue fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="jar issue fixed" />
+    <MESSAGE value="log added" />
+    <option name="LAST_COMMIT_MESSAGE" value="log added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

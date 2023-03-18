@@ -1,0 +1,6 @@
+2023-03-15 02:06:26.439 [main] INFO  DevOps.ScientificCalc - [FACTORIAL] - 5.0
+2023-03-15 02:06:26.441 [main] INFO  DevOps.ScientificCalc - [RESULT - FACTORIAL] - 120.0
+2023-03-15 02:06:32.919 [main] INFO  DevOps.ScientificCalc - [SQ ROOT] - 2.0
+2023-03-15 02:06:32.920 [main] INFO  DevOps.ScientificCalc - [RESULT - SQ ROOT] - 1.4142135623730951
+2023-03-15 16:18:33.657 [main] INFO  DevOps.ScientificCalc - [FACTORIAL] - 3.0
+2023-03-15 16:18:33.661 [main] INFO  DevOps.ScientificCalc - [RESULT - FACTORIAL] - 6.0
