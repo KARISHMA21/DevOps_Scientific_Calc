@@ -8,7 +8,7 @@ public class TestScientificCalc {
 
     @Test
     public void factorialTruePositive(){
-        assertEquals("Finding factorial of a number for True Positive", 128, calculator.fact(5), DELTA);
+        assertEquals("Finding factorial of a number for True Positive", 120, calculator.fact(5), DELTA);
         assertEquals("Finding factorial of a number for True Positive", 24, calculator.fact(4), DELTA);
     }
 
