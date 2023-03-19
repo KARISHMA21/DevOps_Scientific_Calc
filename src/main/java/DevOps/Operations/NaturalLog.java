@@ -7,6 +7,7 @@ public class NaturalLog {
     private static final Logger logger = LogManager.getLogger(NaturalLog.class);
 
     public static double naturalLog(double num) {
+        System.out.println("------------------------------ logs -----------------------------------------------------");
         logger.info("[NATURAL LOG] - " + num);
         double result = 0;
         try {
@@ -22,6 +23,7 @@ public class NaturalLog {
             System.out.println("[EXCEPTION - LOG] - Cannot find log of negative numbers " + error.getLocalizedMessage());
         }
         logger.info("[RESULT - NATURAL LOG] - " + result);
+        System.out.println("-----------------------------------------------------------------------------------------");
         return result;
     }
 }
