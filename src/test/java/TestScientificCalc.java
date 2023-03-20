@@ -10,18 +10,18 @@ import org.junit.Test;
 
 public class TestScientificCalc {
     private static final double DELTA = 1e-15;
-    ScientificCalc calculator = new ScientificCalc();
+//    ScientificCalc calculator = new ScientificCalc();
 
     @Test
     public void factorialTruePositive(){
-        assertEquals("Finding factorial of a number for True Positive", 120, Factorial.fact(5), DELTA);
-        assertEquals("Finding factorial of a number for True Positive", 24, Factorial.fact(4), DELTA);
+        assertEquals("Finding factorial of a number for True Positive", 120, Factorial.factorial(5), DELTA);
+        assertEquals("Finding factorial of a number for True Positive", 24, Factorial.factorial(4), DELTA);
     }
 
     @Test
     public void factorialFalsePositive(){
-        assertNotEquals("Finding factorial of a number for False Positive", 120, Factorial.fact(6), DELTA);
-        assertNotEquals("Finding factorial of a number for False Positive", 24, Factorial.fact(3), DELTA);
+        assertNotEquals("Finding factorial of a number for False Positive", 120, Factorial.factorial(6), DELTA);
+        assertNotEquals("Finding factorial of a number for False Positive", 24, Factorial.factorial(3), DELTA);
     }
 
     @Test

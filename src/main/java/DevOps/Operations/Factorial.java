@@ -8,9 +8,9 @@ public class Factorial {
 
     public static double factorial(double num) {
         System.out.println("------------------------------ logs -----------------------------------------------------");
-        logger.info("[FACTORIAL] - " + num);
+        logger.info("\t[FACTORIAL] - " + num);
         double result = fact(num);
-        logger.info("[RESULT - FACTORIAL] - " + result);
+        logger.info("\t[RESULT - FACTORIAL] - " + result);
         System.out.println("-----------------------------------------------------------------------------------------");
 
         return result;

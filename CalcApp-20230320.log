@@ -1,0 +1,32 @@
+2023-03-20 01:19:05.852 [main] INFO  DevOps.Operations.Factorial - 	[FACTORIAL] - 6.0
+2023-03-20 01:19:05.853 [main] INFO  DevOps.Operations.Factorial - 	[RESULT - FACTORIAL] - 720.0
+2023-03-20 01:19:05.854 [main] INFO  DevOps.Operations.Factorial - 	[FACTORIAL] - 3.0
+2023-03-20 01:19:05.854 [main] INFO  DevOps.Operations.Factorial - 	[RESULT - FACTORIAL] - 6.0
+2023-03-20 01:19:05.856 [main] INFO  DevOps.Operations.SquareRoot - 	[SQ ROOT] - 3.0
+2023-03-20 01:19:05.857 [main] INFO  DevOps.Operations.SquareRoot - 	[RESULT - SQ ROOT] - 1.7320508075688772
+2023-03-20 01:19:05.857 [main] INFO  DevOps.Operations.SquareRoot - 	[SQ ROOT] - 4.0
+2023-03-20 01:19:05.858 [main] INFO  DevOps.Operations.SquareRoot - 	[RESULT - SQ ROOT] - 2.0
+2023-03-20 01:19:05.860 [main] INFO  DevOps.Operations.NaturalLog - 	[NATURAL LOG] - 1.0
+2023-03-20 01:19:05.861 [main] INFO  DevOps.Operations.NaturalLog - 	[RESULT - NATURAL LOG] - 0.0
+2023-03-20 01:19:05.861 [main] INFO  DevOps.Operations.NaturalLog - 	[NATURAL LOG] - 1.0
+2023-03-20 01:19:05.861 [main] INFO  DevOps.Operations.NaturalLog - 	[RESULT - NATURAL LOG] - 0.0
+2023-03-20 01:19:05.862 [main] INFO  DevOps.Operations.Factorial - 	[FACTORIAL] - 5.0
+2023-03-20 01:19:05.862 [main] INFO  DevOps.Operations.Factorial - 	[RESULT - FACTORIAL] - 120.0
+2023-03-20 01:19:05.863 [main] INFO  DevOps.Operations.Factorial - 	[FACTORIAL] - 4.0
+2023-03-20 01:19:05.863 [main] INFO  DevOps.Operations.Factorial - 	[RESULT - FACTORIAL] - 24.0
+2023-03-20 01:19:05.873 [main] INFO  DevOps.Operations.Power - 		[POWER - 2.0 RAISED TO] 2.0
+2023-03-20 01:19:05.874 [main] INFO  DevOps.Operations.Power - 		[RESULT - POWER] - 4.0
+2023-03-20 01:19:05.874 [main] INFO  DevOps.Operations.Power - 		[POWER - 2.0 RAISED TO] 3.0
+2023-03-20 01:19:05.875 [main] INFO  DevOps.Operations.Power - 		[RESULT - POWER] - 8.0
+2023-03-20 01:19:05.875 [main] INFO  DevOps.Operations.Power - 		[POWER - 2.0 RAISED TO] 3.0
+2023-03-20 01:19:05.875 [main] INFO  DevOps.Operations.Power - 		[RESULT - POWER] - 8.0
+2023-03-20 01:19:05.876 [main] INFO  DevOps.Operations.Power - 		[POWER - 4.0 RAISED TO] 3.0
+2023-03-20 01:19:05.876 [main] INFO  DevOps.Operations.Power - 		[RESULT - POWER] - 64.0
+2023-03-20 01:19:05.877 [main] INFO  DevOps.Operations.NaturalLog - 	[NATURAL LOG] - 2.4
+2023-03-20 01:19:05.877 [main] INFO  DevOps.Operations.NaturalLog - 	[RESULT - NATURAL LOG] - 0.8754687373538999
+2023-03-20 01:19:05.877 [main] INFO  DevOps.Operations.NaturalLog - 	[NATURAL LOG] - 2.1
+2023-03-20 01:19:05.878 [main] INFO  DevOps.Operations.NaturalLog - 	[RESULT - NATURAL LOG] - 0.7419373447293773
+2023-03-20 01:19:05.880 [main] INFO  DevOps.Operations.SquareRoot - 	[SQ ROOT] - 4.0
+2023-03-20 01:19:05.880 [main] INFO  DevOps.Operations.SquareRoot - 	[RESULT - SQ ROOT] - 2.0
+2023-03-20 01:19:05.881 [main] INFO  DevOps.Operations.SquareRoot - 	[SQ ROOT] - 1.0
+2023-03-20 01:19:05.881 [main] INFO  DevOps.Operations.SquareRoot - 	[RESULT - SQ ROOT] - 1.0
