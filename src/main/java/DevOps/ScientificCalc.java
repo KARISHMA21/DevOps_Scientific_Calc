@@ -72,7 +72,7 @@ public class ScientificCalc {
                     System.out.print("\nEnter a number to find it's Factorial : ");
                     first_number = scanner.nextDouble();
                     if(first_number<0 || first_number>=Integer.MAX_VALUE)
-                        System.out.print("\nSorry!! Invalid entry, Please try again\n\n");
+                        System.out.print("\nSorry!! Invalid entry, Please  try again\n\n");
                     else {
 //                    Factorial fact= new Factorial();
                     result=factorial(first_number);
