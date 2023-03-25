@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6a7d20c9-e6af-4e72-9e05-bdb413ec81ee" name="Changes" comment="Minor updates/changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DevOps/Operations/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DevOps/Operations/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DevOps/Operations/NaturalLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DevOps/Operations/NaturalLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DevOps/Operations/Power.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DevOps/Operations/Power.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DevOps/Operations/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DevOps/Operations/SquareRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestScientificCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestScientificCalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalcApp-20230320.log" beforeDir="false" afterPath="$PROJECT_DIR$/CalcApp-20230320.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +121,12 @@
       <workItem from="1679230493727" duration="610000" />
       <workItem from="1679234386479" duration="693000" />
       <workItem from="1679237535621" duration="4748000" />
-      <workItem from="1679346036727" duration="670000" />
+      <workItem from="1679346036727" duration="674000" />
+      <workItem from="1679373827549" duration="559000" />
+      <workItem from="1679383672350" duration="598000" />
+      <workItem from="1679391283931" duration="274000" />
+      <workItem from="1679546535713" duration="681000" />
+      <workItem from="1679742601033" duration="1331000" />
     </task>
     <task id="LOCAL-00001" summary="initial upload">
       <created>1678299277531</created>
