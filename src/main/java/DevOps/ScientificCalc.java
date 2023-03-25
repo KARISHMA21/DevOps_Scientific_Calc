@@ -75,9 +75,9 @@ public class ScientificCalc {
                         System.out.print("\nSorry!! Invalid entry, Please try again\n\n");
                     else {
 //                    Factorial fact= new Factorial();
-                        result = factorial(first_number);
-                        System.out.println("\nFACTORIAL OF " + first_number + " IS --> " + result);
-                        System.out.println("\n");
+                    result=factorial(first_number);
+                    System.out.println("\nFACTORIAL OF "+first_number+" IS --> " + result);
+                    System.out.println("\n");
                     }
                     break;
 
