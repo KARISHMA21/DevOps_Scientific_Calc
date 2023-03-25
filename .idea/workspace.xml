@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a7d20c9-e6af-4e72-9e05-bdb413ec81ee" name="Changes" comment="Minor updates/changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalcApp-20230320.log" beforeDir="false" afterPath="$PROJECT_DIR$/CalcApp-20230320.log" afterDir="false" />
-    </list>
+    <list default="true" id="6a7d20c9-e6af-4e72-9e05-bdb413ec81ee" name="Changes" comment="Minor updates/changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +123,7 @@
       <workItem from="1679383672350" duration="598000" />
       <workItem from="1679391283931" duration="274000" />
       <workItem from="1679546535713" duration="681000" />
-      <workItem from="1679742601033" duration="1331000" />
+      <workItem from="1679742601033" duration="1563000" />
     </task>
     <task id="LOCAL-00001" summary="initial upload">
       <created>1678299277531</created>
