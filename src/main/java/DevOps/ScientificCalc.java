@@ -88,19 +88,19 @@ public class ScientificCalc {
                     break;
 
         // ----------------------------------------------------- Power -------------------------------------------------------------
-                case 4:
-                    // Power
-                    System.out.print("\nYou have selected Power operation");
-                    System.out.print("\nEnter first number to find it's Power : ");
-
-                    first_number = scanner.nextDouble();
-                    System.out.print("\nEnter the power to which "+first_number+" should be found : ");
-                    second_number = scanner.nextDouble();
-
-                    result=power(first_number, second_number);
-                    System.out.println("\n"+first_number+ " RAISED TO THE POWER "+second_number+" IS --> " + result);
-                    System.out.println("\n");
-                    break;
+//                case 4:
+//                    // Power
+//                    System.out.print("\nYou have selected Power operation");
+//                    System.out.print("\nEnter first number to find it's Power : ");
+//
+//                    first_number = scanner.nextDouble();
+//                    System.out.print("\nEnter the power to which "+first_number+" should be found : ");
+//                    second_number = scanner.nextDouble();
+//
+//                    result=power(first_number, second_number);
+//                    System.out.println("\n"+first_number+ " RAISED TO THE POWER "+second_number+" IS --> " + result);
+//                    System.out.println("\n");
+//                    break;
 
         // ----------------------------------------------------- Exit -------------------------------------------------------------
                 default:
