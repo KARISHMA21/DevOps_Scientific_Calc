@@ -55,11 +55,14 @@ public class ScientificCalc {
                     System.out.print("\nYou have selected Square root operation");
                     System.out.print("\nEnter a number to find it's Square root : ");
                     first_number = scanner.nextDouble();
-
+                    if(first_number<0 || first_number>=Integer.MAX_VALUE)
+                        System.out.print("\nSorry!! Invalid entry, Please try again\n\n");
+                    else {
 //                    SquareRoot squareRoot = new SquareRoot();
-                    result=sqroot(first_number);
-                    System.out.println("\nSQUARE ROOT OF "+first_number+" IS --> " + result);
-                    System.out.println("\n");
+                        result = sqroot(first_number);
+                        System.out.println("\nSQUARE ROOT OF " + first_number + " IS --> " + result);
+                        System.out.println("\n");
+                    }
                     break;
 
         // ---------------------------------------------------- Factorial -------------------------------------------------------
@@ -68,11 +71,14 @@ public class ScientificCalc {
                     System.out.print("\nYou have selected Factorial operation");
                     System.out.print("\nEnter a number to find it's Factorial : ");
                     first_number = scanner.nextDouble();
-
+                    if(first_number<0 || first_number>=Integer.MAX_VALUE)
+                        System.out.print("\nSorry!! Invalid entry, Please try again\n\n");
+                    else {
 //                    Factorial fact= new Factorial();
-                    result=factorial(first_number);
-                    System.out.println("\nFACTORIAL OF "+first_number+" IS --> " + result);
-                    System.out.println("\n");
+                        result = factorial(first_number);
+                        System.out.println("\nFACTORIAL OF " + first_number + " IS --> " + result);
+                        System.out.println("\n");
+                    }
                     break;
 
         // ---------------------------------------------------- Natural Log -------------------------------------------------------
@@ -81,26 +87,29 @@ public class ScientificCalc {
                     System.out.print("\nYou have selected Natural Log operation");
                     System.out.print("\nEnter a number to find it's Natural Log : ");
                     first_number = scanner.nextDouble();
-
-                    result=naturalLog(first_number);
-                    System.out.println("\nNATURAL LOG OF "+first_number+" IS --> " + result);
-                    System.out.println("\n");
+                    if(first_number<0 || first_number>=Integer.MAX_VALUE)
+                        System.out.print("\nSorry!! Invalid entry, Please try again\n\n");
+                    else {
+                        result = naturalLog(first_number);
+                        System.out.println("\nNATURAL LOG OF " + first_number + " IS --> " + result);
+                        System.out.println("\n");
+                    }
                     break;
 
         // ----------------------------------------------------- Power -------------------------------------------------------------
-//                case 4:
-//                    // Power
-//                    System.out.print("\nYou have selected Power operation");
-//                    System.out.print("\nEnter first number to find it's Power : ");
-//
-//                    first_number = scanner.nextDouble();
-//                    System.out.print("\nEnter the power to which "+first_number+" should be found : ");
-//                    second_number = scanner.nextDouble();
-//
-//                    result=power(first_number, second_number);
-//                    System.out.println("\n"+first_number+ " RAISED TO THE POWER "+second_number+" IS --> " + result);
-//                    System.out.println("\n");
-//                    break;
+                case 4:
+                    // Power
+                    System.out.print("\nYou have selected Power operation");
+                    System.out.print("\nEnter first number to find it's Power : ");
+
+                    first_number = scanner.nextDouble();
+                    System.out.print("\nEnter the power to which "+first_number+" should be found : ");
+                    second_number = scanner.nextDouble();
+
+                    result=power(first_number, second_number);
+                    System.out.println("\n"+first_number+ " RAISED TO THE POWER "+second_number+" IS --> " + result);
+                    System.out.println("\n");
+                    break;
 
         // ----------------------------------------------------- Exit -------------------------------------------------------------
                 default:
