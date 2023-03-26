@@ -71,7 +71,7 @@ public class ScientificCalc {
                     System.out.print("\nYou have selected Factorial operation");
                     System.out.print("\nEnter a number to find it's Factorial : ");
                     first_number = scanner.nextDouble();
-                    if(first_number<0 || first_number>=Integer.MAX_VALUE)
+                    if(first_number<0 || first_number!=(int)first_number ||first_number>=Integer.MAX_VALUE)
                         System.out.print("\nSorry!! Invalid entry, Please  try again\n\n");
                     else {
 //                    Factorial fact= new Factorial();
@@ -87,7 +87,7 @@ public class ScientificCalc {
                     System.out.print("\nYou have selected Natural Log operation");
                     System.out.print("\nEnter a number to find it's Natural Log : ");
                     first_number = scanner.nextDouble();
-                    if(first_number<0 || first_number>=Integer.MAX_VALUE)
+                    if(first_number<=0 || first_number>=Integer.MAX_VALUE)
                         System.out.print("\nSorry!! Invalid entry, Please try again\n\n");
                     else {
                         result = naturalLog(first_number);
@@ -105,10 +105,13 @@ public class ScientificCalc {
                     first_number = scanner.nextDouble();
                     System.out.print("\nEnter the power to which "+first_number+" should be found : ");
                     second_number = scanner.nextDouble();
-
+                    if(first_number==0.0 && second_number ==0.0)
+                        System.out.print("\nSorry!! Invalid entry, Please try again\n\n");
+                    else {
                     result=power(first_number, second_number);
                     System.out.println("\n"+first_number+ " RAISED TO THE POWER "+second_number+" IS --> " + result);
                     System.out.println("\n");
+                    }
                     break;
 
         // ----------------------------------------------------- Exit -------------------------------------------------------------
