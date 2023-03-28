@@ -8,7 +8,7 @@ public class NaturalLog {
 
     public static double naturalLog(double num) {
         System.out.println("------------------------------ logs -----------------------------------------------------");
-        logger.info("\t[NATURAL LOG] - " + num);
+        logger.info("[NATURAL LOG]");
         double result = 0;
         try {
 
@@ -20,9 +20,9 @@ public class NaturalLog {
                 result = Math.log(num);
             }
         } catch (ArithmeticException error) {
-            System.out.println("[EXCEPTION - LOG] - Cannot find log of negative numbers " + error.getLocalizedMessage());
+            System.out.println("[EXCEPTION-LOG]-Cannot find log of negative numbers " + error.getLocalizedMessage());
         }
-        logger.info("\t[RESULT - NATURAL LOG] - " + result);
+//        logger.info("[RESULT-NATURAL LOG]-[" + result+"]");
         System.out.println("-----------------------------------------------------------------------------------------");
         return result;
     }

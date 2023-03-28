@@ -49,16 +49,22 @@ public class ScientificCalc {
 
             switch (choice) {
 
-        // ---------------------------------------------------- Square root  ----------------------------------------------------
+                // ---------------------------------------------------- Square root  ----------------------------------------------------
                 case 1:
                     // Square root
                     System.out.print("\nYou have selected Square root operation");
                     System.out.print("\nEnter a number to find it's Square root : ");
                     first_number = scanner.nextDouble();
-                    if(first_number<0 || first_number>=Integer.MAX_VALUE)
-                        System.out.print("\nSorry!! Invalid entry, Please try again\n\n");
-                    else {
-//                    SquareRoot squareRoot = new SquareRoot();
+                   if(first_number<0 || first_number>=Integer.MAX_VALUE)
+                    {    System.out.print("\nSorry!! Invalid entry, Please try again\n\n");
+                        System.out.println("------------------------------ logs -----------------------------------------------------");
+                            logger.error("[SQ ROOT]-Invalid entry");
+                        System.out.println("-----------------------------------------------------------------------------------------");
+
+                    }
+                   else
+                    {
+                        //SquareRoot squareRoot = new SquareRoot();
                         result = sqroot(first_number);
                         System.out.println("\nSQUARE ROOT OF " + first_number + " IS --> " + result);
                         System.out.println("\n");
@@ -71,14 +77,19 @@ public class ScientificCalc {
                     System.out.print("\nYou have selected Factorial operation");
                     System.out.print("\nEnter a number to find it's Factorial : ");
                     first_number = scanner.nextDouble();
-                    if(first_number<0 || first_number>=Integer.MAX_VALUE)
-                        System.out.print("\nSorry!! Invalid entry, Please  try again\n\n");
-                    else {
-//                    Factorial fact= new Factorial();
-                    result=factorial(first_number);
-                    System.out.println("\nFACTORIAL OF "+first_number+" IS --> " + result);
-                    System.out.println("\n");
+                    if(first_number<0 || first_number!=(int)first_number ||first_number>=Integer.MAX_VALUE) {
+                        System.out.print("\nSorry!! Invalid entry, Please try again\n\n");
+                        System.out.println("------------------------------ logs -----------------------------------------------------");
+                        logger.error("[FACTORIAL]-Invalid entry");
+                        System.out.println("-----------------------------------------------------------------------------------------");
                     }
+                    else
+                  {
+    //                   Factorial fact= new Factorial();
+                        result=factorial(first_number);
+                        System.out.println("\nFACTORIAL OF "+first_number+" IS --> " + result);
+                        System.out.println("\n");
+                  }
                     break;
 
         // ---------------------------------------------------- Natural Log -------------------------------------------------------
@@ -87,8 +98,13 @@ public class ScientificCalc {
                     System.out.print("\nYou have selected Natural Log operation");
                     System.out.print("\nEnter a number to find it's Natural Log : ");
                     first_number = scanner.nextDouble();
-                    if(first_number<0 || first_number>=Integer.MAX_VALUE)
+                    if(first_number<=0 || first_number>=Integer.MAX_VALUE) {
                         System.out.print("\nSorry!! Invalid entry, Please try again\n\n");
+                        System.out.println("------------------------------ logs -----------------------------------------------------");
+                        logger.error("[NATURAL LOG]-Invalid entry");
+                        System.out.println("-----------------------------------------------------------------------------------------");
+                    }
+
                     else {
                         result = naturalLog(first_number);
                         System.out.println("\nNATURAL LOG OF " + first_number + " IS --> " + result);
@@ -106,9 +122,19 @@ public class ScientificCalc {
                     System.out.print("\nEnter the power to which "+first_number+" should be found : ");
                     second_number = scanner.nextDouble();
 
-                    result=power(first_number, second_number);
-                    System.out.println("\n"+first_number+ " RAISED TO THE POWER "+second_number+" IS --> " + result);
-                    System.out.println("\n");
+                    if(first_number==0.0 && second_number ==0.0)
+                    {
+                        System.out.print("\nSorry!! Invalid entry, Please try again\n\n");
+                        System.out.println("------------------------------ logs -----------------------------------------------------");
+                        logger.error("[POWER]-Invalid entry");
+                        System.out.println("-----------------------------------------------------------------------------------------");
+                    }
+                    else
+                    {
+                        result = power(first_number, second_number);
+                        System.out.println("\n" + first_number + " RAISED TO THE POWER " + second_number + " IS --> " + result);
+                        System.out.println("\n");
+                    }
                     break;
 
         // ----------------------------------------------------- Exit -------------------------------------------------------------
@@ -120,3 +146,5 @@ public class ScientificCalc {
     }
 
 }
+
+

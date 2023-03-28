@@ -10,9 +10,9 @@ public class SquareRoot {
     public static double sqroot(double num) {
 
         System.out.println("------------------------------ logs -----------------------------------------------------");
-        logger.info("\t[SQ ROOT] - " + num);
+        logger.info("[SQ ROOT]");
         double result = Math.sqrt(num);
-        logger.info("\t[RESULT - SQ ROOT] - " + result);
+//        logger.info("[RESULT-SQ ROOT]-[" + result+"]");
         System.out.println("-----------------------------------------------------------------------------------------");
 
         return result;

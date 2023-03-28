@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6a7d20c9-e6af-4e72-9e05-bdb413ec81ee" name="Changes" comment="testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DevOps/Operations/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DevOps/Operations/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DevOps/Operations/NaturalLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DevOps/Operations/NaturalLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DevOps/Operations/Power.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DevOps/Operations/Power.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DevOps/Operations/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DevOps/Operations/SquareRoot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DevOps/ScientificCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DevOps/ScientificCalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +132,9 @@
       <workItem from="1679391283931" duration="274000" />
       <workItem from="1679546535713" duration="681000" />
       <workItem from="1679742601033" duration="2904000" />
-      <workItem from="1679748151255" duration="1898000" />
+      <workItem from="1679748151255" duration="2670000" />
+      <workItem from="1679751619824" duration="494000" />
+      <workItem from="1679907255196" duration="4638000" />
     </task>
     <task id="LOCAL-00001" summary="initial upload">
       <created>1678299277531</created>
@@ -199,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679749657989</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="testing">
+      <created>1679750074898</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679750074898</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
