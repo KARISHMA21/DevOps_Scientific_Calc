@@ -1,0 +1,106 @@
+pipeline {
+// The “agent” section configures on which nodes the pipeline can be run.
+// Specifying “agent any” means that Jenkins will run the job on any of the
+// available nodes.
+agent any
+
+//Sets the registry and DockerHub credentials
+environment {
+    registry = "karishma056/scientific_calc"
+    registryCredential = 'dockerCred'
+    dockerImage = ''
+}
+
+// Pull the source code and dockerfile and ansible config files from a GitHub repository
+stages {
+stage('Git Pull') {
+    steps {
+  
+     git url: 'https://github.com/KARISHMA21/DevOps_Scientific_Calc.git', branch: 'master'
+    //  credentialsId: 'karishma21'
+    }
+}
+
+
+// stage('Test ') {
+//     steps {
+        //Run the JUnit Test cases
+//     sh 'mvn verify'
+//     }
+// }
+
+// Maven build: Takes the project code, compiles it, run the Junit Test cases
+//  if all the test cases are passed, converts the source code along with dependencies into a jar executable.
+stage('Maven Build') {
+    steps {
+ 
+    sh 'mvn clean install'
+    }
+}
+
+//Stops the running containers & removes all exiting Docker containers and images on the local
+stage('CLEANUP - existing Containers & old DockerImages') {
+            steps {
+                sh 'docker container stop $(docker container ls -aq) || true'
+                sh 'docker container rm $(docker container ls -aq) || true'
+                sh 'docker image prune -f -a|| true'
+                // sh 'docker stop karishma056/scientific_calc'
+                // sh 'docker rmi -f karishma056/scientific_calc:latest'
+            }
+}
+
+//Creates Docker Image containing the project jar on local system
+stage('Build Docker Image on local') {
+    steps{
+        script {
+        dockerImage = docker.build registry + ":latest"
+        }
+    }
+}
+
+//Pushes created Image onto DockerHub so that we can pull the image and run the application on different remote servers.
+stage('Deploy image on DockerHub') {
+    steps{
+        script {
+            docker.withRegistry( '', registryCredential ) {
+            dockerImage.push()
+            }
+        }
+    }
+}
+
+//To ensure new image is being pulled from DockerHub in next(Ansible Deploy) stage - removes the Docker Image created before 
+stage('Clean up local Docker Image created in stage 4') {
+            steps {
+                
+                 sh 'docker image prune -f -a|| true'
+                 
+                // sh 'ids=$(docker ps -a -q)'
+                //     'for id in $ids'
+                //     do
+                //          echo "$id"
+                //          docker stop $id && docker rm $id
+                //     done'
+                // sh 'docker container stop $(docker container ls -aq) || true'
+                // sh 'docker container rm $(docker container ls -aq) || true'
+              
+             
+            }
+}
+
+//Builds Infrastructure for remote servers mentioned in "inventory: 'hosts'" using the "playbook: 'p3.yml'" -  Deploy to remote server (managed host)
+stage('Ansible Deploy') {
+    steps {
+   
+        ansiblePlaybook credentialsId: 'host pvt key',
+        // disableHostKeyChecking: true, 
+        installation: 'Ansible', 
+        inventory: 'hosts', 
+        playbook: 'p3.yml'
+        
+        
+        }
+    }
+}  //Stages closed
+}  //Pipeline closed
+
